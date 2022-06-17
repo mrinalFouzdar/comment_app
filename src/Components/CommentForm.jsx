@@ -62,9 +62,8 @@ export default function CommentForm() {
           </div>  
         
         }
-        <label >Comment App</label>
         <form className='comment_form' onSubmit={handleSubimt}>
-            <textarea name="" id="" rows="10" onChange={(e)=>setComment(e.target.value)} placeholder="Comment..." value={comment}/>
+            <textarea name="" id="" rows="5" onChange={(e)=>setComment(e.target.value)} placeholder="Comment..." value={comment}/>
 
            
             <div onClick={handleGifShow} className="gif-div-logo"><AiOutlineFileGif/> GIF</div>

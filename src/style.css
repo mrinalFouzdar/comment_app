@@ -10,13 +10,16 @@
     background-color: #5f99b6;
     color: white;
   }
-
+  .comment-app{
+    font-size: 30px;
+    color: whitesmoke;
+  }
   .main-div-container {
     max-width: 750px;
     margin: 30px auto;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     border-radius: 8px;
-    padding: 40px;
+    padding: 80px;
     background-color: #f44336;
   }
   textarea {
@@ -38,7 +41,7 @@
   .input-submit{
     position: absolute;
     top: -50px;
-    right: 20px;
+    right: 0px;
     border: 1px solid transparent;
     border-radius: 4px;
     padding: 6px 14px;
@@ -95,7 +98,7 @@
   }
   .select-span{
     position: absolute;
-    right:240px;
+    right:200px;
     color:aqua;
     cursor: pointer;
   }
@@ -108,9 +111,24 @@
     list-style: none;
 
   }
+  li{
+    position: relative;
+  }
+  .delete_comment{
+    position: absolute;
+    right: 0%;
+    font-size: 20px;
+    color:whitesmoke;
+    background-color: black;
+    cursor: pointer;
+  }
   h3{
     font-weight: normal;
   }
   b{
     color: #1f3f82;
+  }
+  hr{
+    height: 4px;
+    background-color:whitesmoke;
   }

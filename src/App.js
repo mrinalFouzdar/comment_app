@@ -5,7 +5,7 @@ import "./style.css"
 function App() {
   return (
     <div className="App">
-      Joy Mohaprobhu
+      <b className='comment-app'>Comment App</b>
       <CommentForm/>
     </div>
   );

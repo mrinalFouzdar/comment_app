@@ -24,9 +24,14 @@ export function CommentContextProvider({children}){
     const handleCommentList=(value)=>{
         setCommentList(value)
     }
+    const handleDelete=(data)=>{
+       let value= commentList.filter((item)=> item.id !== data)
+       setCommentList(value)
+
+    }
 
     return(
-        <CommentContext.Provider value={{gifShow,handleGifShow,giflist,handleGiflist,handleGifSelect,selectgifImg ,handleCommentList,commentList}}>
+        <CommentContext.Provider value={{gifShow,handleGifShow,giflist,handleGiflist,handleGifSelect,selectgifImg ,handleCommentList,commentList,handleDelete}}>
             {children}
         </CommentContext.Provider>
     )
