@@ -139,6 +139,9 @@ li {
   background-color: black;
   cursor: pointer;
 }
+.delete_comment:hover{
+  color: red;
+}
 
 h3 {
   font-weight: normal;
